@@ -7,7 +7,7 @@ import 'rxjs/add/operator/map';
 
 @Injectable()
 export class NoteService {
-	api_url = '96.49.219.148/32';
+	api_url = 'https://strawberry-cake-70941.herokuapp.com';
 	noteUrl = `${this.api_url}/api/notes`;
 
 	constructor(
