@@ -1,3 +1,11 @@
+This app is deployed on https://chavon-my-notes.herokuapp.com/.
+You can add/edit/delete notes.
+
+# Code Structure
+note.service.ts does the http service calls to the RESTful backend nodejs app.
+app.components.ts injects the noteService to communicate between the dom and backend.
+app.components.html is the view of the app uses bootstrap cards to display notes.
+
 # NoteappAngular
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.3.
